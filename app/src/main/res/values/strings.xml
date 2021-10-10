@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+    -------LogIn-----
+    <string name="text_user_name">Tên đăng nhập</string>
+    <string name="text_pass_word">Mật khẩu</string>
+    <string name="text_forgot">Quên mật khẩu</string>
+    <string name="button_log_in">Đăng nhập</string>
+    <string name="button_sign_up">Đăng kí</string>
+    <string name="text_othes">hoặc đăng nhập bằng</string>
+    <string name="text_question">Bạn chưa có tài khoản ?</string>
+    <string name="text_confirm">Nhập lại mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="text_remember">Nhớ mật khẩu</string>
+    -----------menu-----------
+    <string name="action_home">Trang chủ</string>
+    <string name="action_cart">Giỏ hàng</string>
+    <string name="action_favorite">Yêu thích</string>
+    <string name="action_notification">Thông báo</string>
+    <string name="action_profile">Tài khoản</string>
+
+    --------------profile---------------------------
+    <string name="pro_favorite">Yêu thích</string>
+    <string name="pro_money">Số dư tài khoản</string>
+    <string name="pro_payment_method">Hình thức thanh toán</string>
+    <string name="pro_address">Địa chỉ</string>
+    <string name="pro_about_us">Về chúng tôi</string>
+    <string name="pro_support">Trung tâm trợ giúp</string>
+    <string name="pro_setting">Cài đặt</string>
+    <string name="pro_log_out">Đăng xuất</string>
+    <string name="pro_condition">Điều khoản sử dụng</string>
+    <string name="pro_time">Đã xem gần đây</string>
+    ----homeFragment-------
+    <string name="home_search">Tìm kiếm</string>
+</resources>

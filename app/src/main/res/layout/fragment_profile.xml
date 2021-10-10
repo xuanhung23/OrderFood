@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F37878">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/fb"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nguyễn Xuân Hưng"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgProfile" />
+
+        <LinearLayout
+            android:id="@+id/lnProfile1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/custom_linear_profile"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgProfile">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_baseline_favorite_border_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_favorite"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_baseline_access_time_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_time"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_money"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_baseline_payment_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+
+                android:text="@string/pro_payment_method"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_baseline_place_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_address"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_linear_profile"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@id/lnProfile1"
+            app:layout_constraintStart_toStartOf="@id/lnProfile1"
+            app:layout_constraintTop_toBottomOf="@id/lnProfile1">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/about_us"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_about_us"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_sharp_fact_check_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_condition"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_support"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_baseline_settings_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_setting"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvLogOut"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_login_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:text="@string/pro_log_out"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

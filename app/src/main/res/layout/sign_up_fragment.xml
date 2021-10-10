@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:id="@+id/edUerName"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/custom_edit_text_login"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="5dp"
+            android:gravity="center|left"
+            android:hint="@string/text_user_name"
+            android:maxLines="1"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edPassWord"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edit_text_login"
+            android:drawableLeft="@drawable/ic_baseline_https_24"
+            android:drawablePadding="5dp"
+            android:gravity="center|left"
+            android:hint="@string/text_pass_word"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edUerName" />
+
+        <EditText
+            android:id="@+id/edConfirmPassWord"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edit_text_login"
+            android:drawableLeft="@drawable/ic_baseline_https_24"
+            android:drawablePadding="5dp"
+            android:gravity="center|left"
+            android:hint="@string/text_confirm"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edPassWord" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edit_text_login"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="5dp"
+            android:gravity="center|left"
+            android:hint="@string/email"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edConfirmPassWord" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_button_login"
+            android:text="@string/button_sign_up"
+            android:textSize="30dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@id/edUerName"
+            app:layout_constraintStart_toStartOf="@id/edPassWord"
+            app:layout_constraintTop_toBottomOf="@id/edEmail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
