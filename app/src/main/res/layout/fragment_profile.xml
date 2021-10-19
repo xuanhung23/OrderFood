@@ -5,16 +5,16 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#F37878">
+        android:background="#FBEEEE">
 
         <ImageView
             android:id="@+id/imgProfile"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/fb"
+            android:src="@drawable/person"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="15dp"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -22,15 +22,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Nguyễn Xuân Hưng"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imgProfile" />
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@id/imgProfile"
+            app:layout_constraintTop_toTopOf="@id/imgProfile" />
 
         <LinearLayout
             android:id="@+id/lnProfile1"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="150dp"
             android:background="@drawable/custom_linear_profile"
             android:orientation="vertical"
             android:padding="10dp"

@@ -11,9 +11,7 @@ import androidx.fragment.app.Fragment;
 import com.example.orderfood.R;
 import com.example.orderfood.databinding.FragmentProfileBinding;
 
-
 public class ProfileFragment extends Fragment {
-
     FragmentProfileBinding fragmentProfileBinding;
 
 
@@ -37,5 +35,4 @@ public class ProfileFragment extends Fragment {
 
         return fragmentProfileBinding.getRoot();
     }
-
 }

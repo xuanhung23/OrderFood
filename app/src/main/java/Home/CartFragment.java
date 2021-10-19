@@ -11,11 +11,6 @@ import androidx.fragment.app.Fragment;
 import com.example.orderfood.R;
 import com.example.orderfood.databinding.FragmentCartBinding;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link CartFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class CartFragment extends Fragment {
     FragmentCartBinding fragmentCartBinding;
 
@@ -38,7 +33,7 @@ public class CartFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        fragmentCartBinding= DataBindingUtil.inflate(inflater,R.layout.fragment_cart, container, false);
+        fragmentCartBinding= DataBindingUtil.inflate(inflater, R.layout.fragment_cart, container, false);
         return  fragmentCartBinding.getRoot();
     }
 }
